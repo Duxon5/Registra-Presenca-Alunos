@@ -1,0 +1,30 @@
+<resources>
+    <!-- MAIN - TELA DE LOGIN -->
+    <string name="app_name">RegistradorPresencaAlunos</string>
+    <string name="rgm">RGM</string>
+    <string name="digite_rgm">Digite o RGM</string>
+    <string name="senha">Senha</string>
+    <string name="digite_senha">Digite a Senha</string>
+    <string name="logar">Logar</string>
+    <string name="sair">Sair</string>
+    <string name="aula_hoje">Aula de hoje [Dia semana - dd/mm/aaaa]</string>
+    <string name="inicio_aula">Inicio aula: dd/mm/aaaa - hh:mm</string>
+    <string name="fim_aula">Fim aula: dd/mm/aaaa - hh:mm</string>
+    <string name="nome_materia">Materia: Nome materia</string>
+    <string name="nome_professor">Professor(a): Nome professor</string>
+    <string name="local_aula">Andar X - Sala Y</string>
+    <string name="presenca_registrada">Presença registrada? NAO</string>
+    <string name="local_registro">Local do registro: -23.53653, -55.56541</string>
+    <string name="registrar_presenca">Registrar Presença</string>
+    <string name="desistir">Desistir</string>
+    <string name="ver_todas_materias"><u>Clique aqui para ver todas as materias.</u></string>
+
+    <string-array name="spinner_disciplina_values">
+        <item>Texto</item>
+<!--        <item>Linguagens Formais e Automatos</item>-->
+<!--        <item>Fundamentos de Inteligência Artificial</item>-->
+<!--        <item>Trabalho de Graduação Interdisciplinar I</item>-->
+<!--        <item>Programaçao para Dispositivos Móveis</item>-->
+    </string-array>
+
+</resources>
