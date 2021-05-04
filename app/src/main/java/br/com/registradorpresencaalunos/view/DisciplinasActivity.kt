@@ -124,6 +124,7 @@ class DisciplinasActivity: AppCompatActivity(), View.OnClickListener,AdapterView
         image_circle7.setColorFilter(ActivityCompat.getColor(this,R.color.ic_tint_verde))
         text_materia_hoje.text = SimpleDateFormat("EEEE, dd/MM/yyyy").format(Date())
 
+        text_materia_dia_semana.text = "Dia da semana: " + mDisciplinaModel.getDiaSemana(idDisciplina,mIdUsuario)
         text_data_hora_aula_inicio.text = "Inicio aula: " + mDisciplinaModel.getInicioAula(idDisciplina,mIdUsuario)
         text_data_hora_aula_fim.text = "Fim aula: " + mDisciplinaModel.getFimAula(idDisciplina,mIdUsuario)
         text_materia.text = "Materia: " + mDisciplinaModel.getMateria(idDisciplina,mIdUsuario)
@@ -292,9 +293,13 @@ class DisciplinasActivity: AppCompatActivity(), View.OnClickListener,AdapterView
         SimpleDateFormat("HH:mm:ss").parse(dataString)
 
     class localizacaoFaculdade {
-//        Faculdade
-        val latitude: String = "-23.536286105990403"
-        val longitude: String = "-46.560337171952156"
+////        Faculdade
+//        val latitude: String = "-23.536286105990403"
+//        val longitude: String = "-46.560337171952156"
+
+        val latitude: String = "-23.5851854"
+        val longitude: String = "-46.5190304"
+
     }
 
     private fun toast(texto: String) {

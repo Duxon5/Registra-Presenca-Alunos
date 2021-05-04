@@ -64,13 +64,35 @@
         app:layout_constraintTop_toBottomOf="@id/spinner_disciplina"/>
 
     <ImageView
-        android:id="@+id/image_circle1"
+        android:id="@+id/image_circle0"
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_marginTop="15dp"
         android:src="@drawable/ic_circle"
         app:layout_constraintLeft_toLeftOf="@id/spinner_disciplina"
         app:layout_constraintTop_toBottomOf="@id/text_todas_materias"
+        app:tint="@color/ic_tint_verde" />
+
+    <TextView
+        android:id="@+id/text_materia_dia_semana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:text="@string/dia_da_semana_texto"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/image_circle0"
+        app:layout_constraintLeft_toRightOf="@id/image_circle0"
+        app:layout_constraintTop_toTopOf="@id/image_circle0" />
+
+    <ImageView
+        android:id="@+id/image_circle1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_circle"
+        app:layout_constraintLeft_toLeftOf="@id/spinner_disciplina"
+        app:layout_constraintTop_toBottomOf="@id/text_materia_dia_semana"
         app:tint="@color/ic_tint_verde" />
 
     <TextView
@@ -227,20 +249,6 @@
         app:layout_constraintTop_toTopOf="@id/image_circle7" />
 
     <Button
-        android:id="@+id/button_registrar_presenca"
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="30dp"
-        android:background="@color/fundo_botao"
-        android:padding="8dp"
-        android:text="@string/registrar_presenca"
-        android:textColor="@color/texto_botao"
-        android:textStyle="bold"
-        app:layout_constraintLeft_toLeftOf="@id/view_presenca"
-        app:layout_constraintRight_toLeftOf="@id/button_desistir"
-        app:layout_constraintTop_toBottomOf="@id/text_local_presenca" />
-
-    <Button
         android:id="@+id/button_desistir"
         android:layout_width="120dp"
         android:layout_height="60dp"
@@ -250,8 +258,22 @@
         android:text="@string/desistir"
         android:textColor="@color/texto_botao"
         android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/view_presenca"
+        app:layout_constraintRight_toLeftOf="@id/button_registrar_presenca"
+        app:layout_constraintTop_toBottomOf="@id/text_local_presenca" />
+
+    <Button
+        android:id="@+id/button_registrar_presenca"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/fundo_botao"
+        android:padding="8dp"
+        android:text="@string/registrar_presenca"
+        android:textColor="@color/texto_botao"
+        android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/text_local_presenca"
-        app:layout_constraintLeft_toRightOf="@id/button_registrar_presenca"
+        app:layout_constraintLeft_toRightOf="@id/button_desistir"
         app:layout_constraintRight_toRightOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

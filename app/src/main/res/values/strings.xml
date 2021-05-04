@@ -18,6 +18,7 @@
     <string name="registrar_presenca">Registrar Presença</string>
     <string name="desistir">Desistir</string>
     <string name="ver_todas_materias"><u>Clique aqui para ver todas as materias.</u></string>
+    <string name="dia_da_semana_texto">Dia da semana: texto</string>
 
     <string-array name="spinner_disciplina_values">
         <item>Texto</item>

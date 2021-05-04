@@ -13,13 +13,13 @@
 
     <!--Cores básicas-->
     <color name="texto">#004C94</color>
-    <color name="texto_botao">#FF9C19</color>
+    <color name="texto_botao">#FFD500</color>
     <color name="fundo_botao">#004C94</color>
     <color name="texto_edit">#004C94</color>
     <color name="texto_edit_hint">#004C94</color>
     <color name="fundo_edit">#7CC9A7</color>
     <color name="fundo_edit_tint">#7CC9A7</color>
-    <color name="ic_tint_verde">#7CC9A7</color>
+    <color name="ic_tint_verde">#03C36E</color>
     <color name="ic_tint_alerta">#AA0D0D</color>
     <color name="ic_tint_azul">#004C94</color>
     <color name="spinner_texto">#004C94</color>
