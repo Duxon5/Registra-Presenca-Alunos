@@ -294,12 +294,8 @@ class DisciplinasActivity: AppCompatActivity(), View.OnClickListener,AdapterView
 
     class localizacaoFaculdade {
 ////        Faculdade
-//        val latitude: String = "-23.536286105990403"
-//        val longitude: String = "-46.560337171952156"
-
-        val latitude: String = "-23.5851854"
-        val longitude: String = "-46.5190304"
-
+        val latitude: String = "-23.536286105990403"
+        val longitude: String = "-46.560337171952156"
     }
 
     private fun toast(texto: String) {
